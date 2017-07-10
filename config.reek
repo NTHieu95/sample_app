@@ -1,0 +1,6 @@
+UtilityFunction:
+  exclude:
+    - "ApplicationHelper#full_title"
+
+IrresponsibleModule:
+  enabled: false
