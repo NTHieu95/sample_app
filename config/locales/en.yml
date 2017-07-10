@@ -73,3 +73,6 @@ en:
       home_page_show: "This is the home page for"
       rails_app_title: "sample application."
       rails_logo: "Rails logo"
+  users:
+    sign_up: "Sign up"
+    sentence_1: "This will be a signup page for new users."
