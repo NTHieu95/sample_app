@@ -28,6 +28,7 @@ en:
   news: "News"
   the: "The"
   by: "by"
+  fail: "Not found"
   home: "Home"
   help: "Help"
   log_in: "Log In"
