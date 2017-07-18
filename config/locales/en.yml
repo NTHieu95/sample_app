@@ -40,13 +40,14 @@ en:
   create_my_account: "Create my account"
   confirmation: "Confirmation"
   new_user: "New user?"
-  error_login_message: "Invalid Email/Passowrd"
+  error_login_message: "Invalid email/password combination"
   log_out: "Log Out"
   users_header: "Users"
   profile: "Profile"
   setting: "Setting"
   account: "Account"
   delete: "Delete"
+  sign_up_now: "Sign up now!"
   static_pages:
     about:
       title: "About"
