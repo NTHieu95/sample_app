@@ -8,7 +8,7 @@
         <% if logged_in? %>
           <li><%= link_to t("users_header"), "#" %></li>
           <li class = "dropdown">
-            <% link_to "#", class: "dropdown-toggle",
+            <%= link_to "#", class: "dropdown-toggle",
               data: {toggle: "dropdown"} do %>
               <%= t "account" %> <b class="caret"></b>
             <% end %>

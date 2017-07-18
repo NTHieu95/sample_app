@@ -5,3 +5,7 @@ FeatureEnvy:
   enabled: false
 IrresponsibleModule:
   enabled: false
+TooManyStatements:
+  enabled: false
+Attribute:
+  enabled: false
