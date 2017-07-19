@@ -48,6 +48,7 @@ en:
   account: "Account"
   delete: "Delete"
   sign_up_now: "Sign up now!"
+  remember_me: "Remember me on this computer"
   static_pages:
     about:
       title: "About"
