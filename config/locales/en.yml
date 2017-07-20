@@ -88,3 +88,15 @@ en:
   admin:
     sure?: "You sure?"
     user_deleted: "User deleted"
+  mail:
+    activate: "Activate"
+    check_mail: "Please check your email to activate your account."
+    invalid_act_link: "Invalid activation link"
+    activated: "Account activated!"
+    account_activation: "Account activation"
+    not_activated: "Account not activated. Check your email for the activation link."
+    sample_app: "Sample App"
+    hi: "Hi "
+    welcome_sign: "Welcome to the Sample App! Click on the link below to activate your account:"
+    password_reset: "User#password_reset"
+    findme: ", find me in app/views/user_mailer/password_reset.html.erb"
