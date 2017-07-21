@@ -32,7 +32,10 @@ RemoveUnusedMethodsInControllersCheck: {
   "UsersController#show",
   "UsersController#create",
   "SessionsController#create",
-  "SessionsController#destroy"]
+  "SessionsController#destroy",
+  "UsersController#index",
+  "UsersController#logged_in_user",
+  "UsersController#find_user"]
 }
 RemoveUnusedMethodsInHelpersCheck: { except_methods: [] }
 RemoveUnusedMethodsInModelsCheck: { except_methods: ["User#digest"] }

@@ -49,6 +49,9 @@ en:
   delete: "Delete"
   sign_up_now: "Sign up now!"
   remember_me: "Remember me on this computer"
+  all_users: "All Users"
+  change: "Change"
+  update_profile: "Update your profile"
   static_pages:
     about:
       title: "About"
@@ -77,5 +80,11 @@ en:
       rails_app_title: "sample application."
       rails_logo: "Rails logo"
   users:
+    edit_user: "Edit user"
+    save: "Save changes"
     sign_up: "Sign up"
     sentence_1: "This will be a signup page for new users."
+    all: "All users"
+  admin:
+    sure?: "You sure?"
+    user_deleted: "User deleted"
