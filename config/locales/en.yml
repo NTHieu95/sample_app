@@ -52,6 +52,7 @@ en:
   all_users: "All Users"
   change: "Change"
   update_profile: "Update your profile"
+  submit: "Submit"
   static_pages:
     about:
       title: "About"
@@ -98,5 +99,20 @@ en:
     sample_app: "Sample App"
     hi: "Hi "
     welcome_sign: "Welcome to the Sample App! Click on the link below to activate your account:"
-    password_reset: "User#password_reset"
+    password_reset: "Password reset"
     findme: ", find me in app/views/user_mailer/password_reset.html.erb"
+    reset_part1: "To reset your password click the link below:"
+    reset_part2: "This link will expire in two hours."
+    reset_part3: "If you did not request your password to be reset, please ignore this email andyour password will stay as it is."
+  forgot:
+    title: "Forgot password"
+    title2: "(forgot password)"
+  reset:
+    title: "Reset password"
+    title2: "Password reset"
+    cant_be_empty: "can't be empty"
+    reset: "Password has been reset."
+    sent: "Email sent with password reset instructions"
+    not_found: "Email address not found"
+    expired: "Password reset has expired."
+    update: "Update password"
