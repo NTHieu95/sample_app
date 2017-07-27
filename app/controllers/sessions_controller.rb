@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     user = User.find_by email: session[:email].downcase
 
     if user && user.authenticate(session[:password])
-      login_success user
+      authenticate user
     else
       login_fail
     end
@@ -18,6 +18,16 @@ class SessionsController < ApplicationController
   end
 
   private
+
+  def authenticate user
+    if user.activated?
+      login_success user
+    else
+      message = t "mail.not_activated"
+      flash[:warning] = message
+      redirect_to root_url
+    end
+  end
 
   def login_success user
     log_in user
