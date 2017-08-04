@@ -53,6 +53,8 @@ en:
   change: "Change"
   update_profile: "Update your profile"
   submit: "Submit"
+  micropost_feed: "Micropost Feed"
+  micropost: "Micropost (%{count})"
   static_pages:
     about:
       title: "About"
@@ -116,3 +118,15 @@ en:
     not_found: "Email address not found"
     expired: "Password reset has expired."
     update: "Update password"
+  post:
+    sure: "You sure?"
+    posted: "Posted"
+    ago: "ago."
+    micropost: "micropost"
+    view: "view my profile"
+    compose: "Compose new micropost..."
+    post: "Post"
+    created: "Micropost created!"
+    deleted: "Micropost deleted"
+    size1: "should be less than 5MB"
+    size2: "Maximum file size is 5MB. Please choose a smaller file."
