@@ -55,6 +55,7 @@ en:
   submit: "Submit"
   micropost_feed: "Micropost Feed"
   micropost: "Micropost (%{count})"
+  view: "View My Profile"
   static_pages:
     about:
       title: "About"
@@ -119,6 +120,7 @@ en:
     expired: "Password reset has expired."
     update: "Update password"
   post:
+    micro: "Micropost:"
     sure: "You sure?"
     posted: "Posted"
     ago: "ago."
@@ -130,3 +132,8 @@ en:
     deleted: "Micropost deleted"
     size1: "should be less than 5MB"
     size2: "Maximum file size is 5MB. Please choose a smaller file."
+  follow:
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "following"
+    followers: "followers"
